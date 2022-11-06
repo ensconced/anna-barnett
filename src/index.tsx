@@ -1,4 +1,6 @@
 import "./styles/reset.css";
+import React from "react";
+import { createRoot } from "react-dom/client";
 
 function getElementById(id: string): HTMLElement {
   const element = document.getElementById(id);
@@ -8,4 +10,9 @@ function getElementById(id: string): HTMLElement {
   return element;
 }
 
-console.log(getElementById("root"));
+function App() {
+  return <h1>Professor Anna Barnett</h1>;
+}
+
+const root = createRoot(getElementById("root"));
+root.render(<App />);
