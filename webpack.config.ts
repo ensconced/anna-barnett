@@ -34,5 +34,5 @@ module.exports = {
   resolve: {
     extensions: [".js", ".json", ".ts", ".tsx"],
   },
-  plugins: [new HtmlWebpackPlugin({ title: "template project" })],
+  plugins: [new HtmlWebpackPlugin({ title: "Anna Barnett" })],
 };
