@@ -1,4 +1,6 @@
 import HtmlWebpackPlugin from "html-webpack-plugin";
+import CopyPlugin from "copy-webpack-plugin";
+
 import path from "path";
 
 const TEN_MEGABYTES = 10 * 1024 * 1024;
@@ -34,5 +36,10 @@ module.exports = {
   resolve: {
     extensions: [".js", ".json", ".ts", ".tsx"],
   },
-  plugins: [new HtmlWebpackPlugin({ title: "Anna Barnett" })],
+  plugins: [
+    new HtmlWebpackPlugin({ title: "Anna Barnett" }),
+    new CopyPlugin({
+      patterns: ["./favicon.ico"],
+    }),
+  ],
 };
