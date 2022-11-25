@@ -37,7 +37,7 @@ module.exports = {
     extensions: [".js", ".json", ".ts", ".tsx"],
   },
   plugins: [
-    new HtmlWebpackPlugin({ title: "Anna Barnett" }),
+    new HtmlWebpackPlugin({ title: "Prof Anna Barnett" }),
     new CopyPlugin({
       patterns: ["./favicon.ico"],
     }),
