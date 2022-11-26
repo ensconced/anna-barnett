@@ -1,21 +1,7 @@
 ### get text
 
-sections
-
-- assessment tools
+make something like this https://www.wix.com/website-template/view/html/2792
 
 downloads
 
-send examples
-
-got some talks in spring where people should be able to download stuff
-
-all public is fine
-
-links to publisher etc
-
-just have pdfs etc
-
-analytics for downloads
-
-fill in a form to say how you were going to use something - login portal
+what information do you want to collect in the form

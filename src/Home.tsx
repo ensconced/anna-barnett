@@ -13,8 +13,11 @@ export default function Home() {
           then worked as a Research Fellow on various projects at the
           Hammersmith Hospital, Imperial College London, University College
           London and at the University of Oxford before joining Oxford Brookes
-          University in 2004. I am currently Professor in Psychology and teach
-          on undergraduate and postgraduate Psychology programmes.
+          University in 2004.{" "}
+          <a href="https://www.brookes.ac.uk/profiles/staff/anna-barnett">
+            I am currently Professor in Psychology
+          </a>{" "}
+          and teach on undergraduate and postgraduate Psychology programmes.
         </p>
         <p>
           My general area of research is the development of motor control and
