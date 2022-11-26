@@ -27,6 +27,10 @@ module.exports = {
         test: /\.css$/,
         use: ["style-loader", "css-loader"],
       },
+      {
+        test: /\.(woff|woff2|eot|ttf|otf)$/i,
+        type: "asset/resource",
+      },
     ],
   },
   performance: {
@@ -42,4 +46,10 @@ module.exports = {
       patterns: ["./favicon.ico"],
     }),
   ],
+  devServer: {
+    port: 3000,
+    historyApiFallback: {
+      index: "/",
+    },
+  },
 };

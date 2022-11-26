@@ -9,7 +9,7 @@ export default function Section({ title, children }: Props) {
   return (
     <section>
       <div className="section-container">
-        <h1>{title}</h1>
+        <h2>{title}</h2>
         {children}
       </div>
     </section>

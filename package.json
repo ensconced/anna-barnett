@@ -16,12 +16,14 @@
     "@typescript-eslint/eslint-plugin": "^5.38.0",
     "@typescript-eslint/parser": "^5.38.0",
     "babel-loader": "^8.2.5",
+    "copy-webpack-plugin": "^11.0.0",
     "css-loader": "^6.7.1",
     "eslint": "^8.16.0",
     "html-webpack-plugin": "^5.5.0",
     "prettier": "^2.6.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.4.3",
     "style-loader": "^3.3.1",
     "ts-node": "^10.8.0",
     "typescript": "^4.7.2",
@@ -33,8 +35,5 @@
     "start": "webpack serve --open",
     "build": "webpack build",
     "test:types": "tsc --noEmit"
-  },
-  "devDependencies": {
-    "copy-webpack-plugin": "^11.0.0"
   }
 }
