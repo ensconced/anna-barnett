@@ -1,6 +1,8 @@
 import "./styles/reset.css";
 import React from "react";
 import { createRoot } from "react-dom/client";
+import Section from "./Section";
+import Reference from "./Reference";
 
 function getElementById(id: string): HTMLElement {
   const element = document.getElementById(id);
@@ -13,9 +15,7 @@ function getElementById(id: string): HTMLElement {
 function App() {
   return (
     <>
-      <h1>Prof Anna Barnett</h1>
-      <section>
-        <h2>Background</h2>
+      <Section title="Prof Anna Barnett">
         <p>
           I gained my first degree in Psychology and Physical Education at the
           University College of North Wales (UCNW) Bangor and PhD in Child
@@ -24,14 +24,19 @@ function App() {
           Hammersmith Hospital, Imperial College London, University College
           London and at the University of Oxford before joining Oxford Brookes
           University in 2004. I am currently Professor in Psychology and teach
-          on undergraduate and postgraduate Psychology programmes. My general
-          area of research is the development of motor control and coordination
-          in children and young adults. Within this area I pursue two different
-          strands of research. The first has very practical applications,
-          involving the development of assessment tools. This includes the DASH,
-          DASH17+ and Movement ABC-2. I’m also involved in the delivery of
-          interventions to teach motor skills. In particular I help run a ‘Learn
-          to Ride a Bike’ course in Oxford for children with motor difficulties.
+          on undergraduate and postgraduate Psychology programmes.
+        </p>
+        <p>
+          My general area of research is the development of motor control and
+          coordination in children and young adults. Within this area I pursue
+          two different strands of research. The first has very practical
+          applications, involving the development of assessment tools. This
+          includes the DASH, DASH17+ and Movement ABC-2. I’m also involved in
+          the delivery of interventions to teach motor skills. In particular I
+          help run a ‘Learn to Ride a Bike’ course in Oxford for children with
+          motor difficulties.
+        </p>
+        <p>
           The second strand of my research focuses on various aspects of
           Developmental Coordination Disorder (DCD) - including diagnosis and
           assessment in children and adults with this condition and exploration
@@ -42,52 +47,111 @@ function App() {
           in primary and secondary schools and examinations of handwriting in
           individuals with developmental disorders such as DCD and dyslexia.
         </p>
-      </section>
-      <section>
-        <h2>Current Projects</h2>
+      </Section>
+      <Section title="Current Projects">
         <p>
           Assessment tools: Various projects are underway to develop a range of
           assessment tools to be used by Education and Allied Health
-          Professionals DASH - 2nd Edition Movement ABC – 3rd Edition
-          Handwriting Legibility Scale (HLS) Writing Quality Scale (WQS)
-          Assessment of typing speed
+          Professionals
         </p>
-      </section>
-      <section>
-        <h2>Other Projects</h2>
+        <ul>
+          <li>DASH - 2nd Edition</li>
+          <li>Movement ABC – 3rd Edition</li>
+          <li>Handwriting Legibility Scale (HLS)</li>
+          <li>Writing Quality Scale (WQS)</li>
+          <li>Assessment of typing speed</li>
+        </ul>
+      </Section>
+      <Section title="Other Projects">
         <p>
           ‘Writing in the Digital Age' Funded by: Royal College of Occupational
           Therapists (RCOT) PI: Mellissa Prunty, Brunel University London, CI:
           Anna L. Barnett, Oxford Brookes University; Emma Sumner, University
-          College London. Nightingale R, Sumner E, Prunty M, Barnett AL,
-          'Handwriting and typing: Occupational therapy practice when supporting
-          adolescents with handwriting difficulties' British Journal of
-          Occupational Therapy 85 (11) (2022) 891-899. ISSN: 0308-0226 eISSN:
-          1477-6006 ‘The Genetics of Motor Coordination’ Funded by: The Waterloo
+          College London.
+        </p>
+        <p>
+          <Reference doi={"https://doi.org/10.1177/03080226221097314"}>
+            Nightingale R, Sumner E, Prunty M, Barnett AL, 'Handwriting and
+            typing: Occupational therapy practice when supporting adolescents
+            with handwriting difficulties' British Journal of Occupational
+            Therapy 85 (11) (2022) 891-899. ISSN: 0308-0226 eISSN: 1477-6006
+          </Reference>
+        </p>
+        <p>
+          ‘The Genetics of Motor Coordination’ Funded by: The Waterloo
           Foundation. PI: Hayley Mountford; CI: Anna L. Barnett; Dianne Newbury,
           Oxford Brookes University.
         </p>
-      </section>
-      <section>
-        <h2> Resources </h2>
-        <p>
-          [https://www.brookes.ac.uk/phpd/research/resources/] Websites:
-          Movement Matters Website Freely available assessment tools:
-          Handwriting Legibility Scale (HLS) [For this one - HLS - I want to ask
-          people to complete a form with some detail about who is requesting the
-          download (e.g email address, purpose of use) ]
-        </p>
-      </section>
-      <section>
-        <h2> Assessment instruments for purchase </h2>
-        <p>
-          : DASH DASH17+ Intelligence and Development Scales - 2nd Edition
-          (IDS-2) Movement ABC-2 Selected publications Mountford HS, Hill A,
-          Barnett AL, Newbury DF (2021) 'Genome Wide Association Study of Motor
-          Coordination' Frontiers in Human Neuroscience 15 ISSN: 1662-5161
-          eISSN: 1662-5161
-        </p>
-      </section>
+      </Section>
+      <Section title="Resources">
+        <h3>Websites</h3>
+        <ul>
+          <li>
+            <a href="http://www.movementmattersuk.org/" target="_blank">
+              Movement Matters
+            </a>
+          </li>
+        </ul>
+        <h3>Freely Available assessment tools</h3>
+        <ul>
+          <li>
+            <a
+              href="https://www.brookes.ac.uk/phpd/research/resources/handwriting-legibility-scale/"
+              target="_blank"
+            >
+              Handwriting Legibility Scale
+            </a>
+          </li>
+        </ul>
+        <h3>Assessment instruments for purchase</h3>
+        <ul>
+          <li>
+            <a
+              href="http://www.pearsonclinical.co.uk/AlliedHealth/PaediatricAssessments/PerceptualFineMotorDevelopment/DetailedAssessmentofSpeedofHandwriting(DASH)/DetailedAssessmentofSpeedofHandwriting(DASH).aspx"
+              target="_blank"
+            >
+              DASH
+            </a>
+          </li>
+          <li>
+            <a
+              href="http://www.pearsonclinical.co.uk/AlliedHealth/PaediatricAssessments/PerceptualFineMotorDevelopment/DetailedAssessmentofSpeedofHandwriting/DetailedAssessmentofSpeedofHandwriting.aspx"
+              target="_blank"
+            >
+              DASH17+
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.brookes.ac.uk/about-brookes/news/-whole-child--intelligence-and-development-assessment-tool-developed-with-oxford-brookes-experts/"
+              target="_blank"
+            >
+              Intelligence and Development Scales - 2nd Edition (IDS-2)
+            </a>
+          </li>
+          <li>
+            <a
+              href="http://www.pearsonclinical.co.uk/Psychology/ChildCognitionNeuropsychologyandLanguage/ChildPerceptionandVisuomotorAbilities/MABC-2/MovementAssessmentBatteryforChildren-SecondEdition(MovementABC-2).aspx"
+              target="_blank"
+            >
+              Movement ABC-2
+            </a>
+          </li>
+        </ul>
+      </Section>
+      <Section title="Selected Publications">
+        <ul>
+          <li>
+            <p>
+              <Reference doi="https://doi.org/10.3389/fnhum.2021.669902">
+                Mountford HS, Hill A, Barnett AL, Newbury DF (2021) 'Genome Wide
+                Association Study of Motor Coordination' Frontiers in Human
+                Neuroscience 15 ISSN: 1662-5161 eISSN: 1662-5161
+              </Reference>
+            </p>
+          </li>
+        </ul>
+      </Section>
     </>
   );
 }

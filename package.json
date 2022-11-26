@@ -31,6 +31,7 @@
   },
   "scripts": {
     "start": "webpack serve --open",
+    "build": "webpack build",
     "test:types": "tsc --noEmit"
   },
   "devDependencies": {
