@@ -11,6 +11,7 @@
   padding: 0;
   box-sizing: border-box;
   line-height: 1.3rem;
+  font-size: 18px;
 }
 
 @font-face {
@@ -42,9 +43,10 @@ nav {
   color: white;
   justify-content: space-between;
   align-items: center;
+  transition: height 300ms;
 }
 
-nav > div.link-container {
+nav div.link-container {
   display: flex;
   gap: 2rem;
 }
@@ -54,8 +56,32 @@ nav a {
   text-decoration: none;
 }
 
-nav > div.link-container > a.active {
+nav div.link-container a.active {
   color: var(--dark-disabled);
+}
+
+.mobile-menu {
+  background-color: var(--dark);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+}
+
+.mobile-menu > div {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  padding: 20px;
+  margin-top: 50px;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.mobile-menu a {
+  margin: 20px;
 }
 
 h1 {
@@ -98,4 +124,15 @@ ul {
 
 h3 {
   margin: 0.5rem 0;
+}
+
+.menu-icon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 999;
+}
+
+.menu-icon svg path {
+  stroke: white;
 }
