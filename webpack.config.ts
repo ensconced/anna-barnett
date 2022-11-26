@@ -43,7 +43,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({ title: "Prof Anna Barnett" }),
     new CopyPlugin({
-      patterns: ["./favicon.ico"],
+      patterns: ["./favicon.ico", "./_redirects"],
     }),
   ],
   devServer: {
