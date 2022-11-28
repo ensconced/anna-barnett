@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { NavLink, useLocation } from "react-router-dom";
-import useWindowDimensions from "./hooks/useWindowDimensions";
+import useWindowDimensions from "../hooks/useWindowDimensions";
 import MenuIcon from "./MenuIcon";
 import MobileMenu from "./MobileMenu";
 import NavLinks from "./NavLinks";

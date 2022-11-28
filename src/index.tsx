@@ -2,12 +2,12 @@ import "./styles/reset.css";
 import React from "react";
 import { createBrowserRouter, RouterProvider, Route } from "react-router-dom";
 import { createRoot } from "react-dom/client";
-import App from "./App";
-import Home from "./Home";
-import ErrorPage from "./Error";
-import Projects from "./Projects";
-import Resources from "./Resources";
-import SelectedPublications from "./SelectedPublications";
+import App from "./components/App";
+import Home from "./components/Home";
+import ErrorPage from "./components/Error";
+import Projects from "./components/Projects";
+import Resources from "./components/Resources";
+import SelectedPublications from "./components/SelectedPublications";
 
 function getElementById(id: string): HTMLElement {
   const element = document.getElementById(id);
