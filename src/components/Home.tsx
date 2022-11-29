@@ -7,6 +7,11 @@ export default function Home() {
     <>
       <Section title="Background">
         <p>
+          My main research focus is the development of assessment tools and
+          understanding of Developmental Coordination Disorder (DCD) in children
+          and adults.
+        </p>
+        <p>
           I gained my first degree in Psychology and Physical Education at the
           University College of North Wales (UCNW) Bangor and PhD in Child
           Development at the Institute of Education, University of London. I
@@ -15,9 +20,9 @@ export default function Home() {
           London and at the University of Oxford before joining Oxford Brookes
           University in 2004.{" "}
           <a href="https://www.brookes.ac.uk/profiles/staff/anna-barnett">
-            I am currently Professor in Psychology
+            I am currently a Professor in Psychology
           </a>{" "}
-          and teach on undergraduate and postgraduate Psychology programmes.
+          and teach on our undergraduate and postgraduate Psychology programmes.
         </p>
         <p>
           My general area of research is the development of motor control and

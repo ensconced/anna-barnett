@@ -19,7 +19,7 @@ export default function Projects() {
           <li>Assessment of typing speed</li>
         </ul>
       </Section>
-      <Section title="Other Projects">
+      <Section title="Handwriting and typing">
         <p>
           ‘Writing in the Digital Age' Funded by: Royal College of Occupational
           Therapists (RCOT) PI: Mellissa Prunty, Brunel University London, CI:
@@ -34,6 +34,8 @@ export default function Projects() {
             Therapy 85 (11) (2022) 891-899. ISSN: 0308-0226 eISSN: 1477-6006
           </Reference>
         </p>
+      </Section>
+      <Section title="The genetics of motor coordination">
         <p>
           ‘The Genetics of Motor Coordination’ Funded by: The Waterloo
           Foundation. PI: Hayley Mountford; CI: Anna L. Barnett; Dianne Newbury,
