@@ -1,15 +1,6 @@
 import React from "react";
 import Section from "./Section";
-
-/*
-
-DASH17+ Please link to this site https://www.pearsonclinical.co.uk/store/ukassessments/en/Store/Professional-Assessments/Motor-Sensory/Detailed-Assessment-of-Speed-of-Handwriting/p/P100009280.html
-The Detailed Assessment of Speed of Handwriting 17+ (DASH17+; Barnett, Henderson, Scheib & Schulz, 2010) is an extension of the DASH for those aged 17-25 years. Production of a 2nd edition of DASH/DASH17+ is underway and due to be published in late 2023.
-Intelligence and Development Scales for Children and Adolescents - 2nd Edition (IDS-2) Please link directly to this site https://www.hogrefe.com/uk/shop/intelligence-and-development-scales-2nd-edition-ids-2.html#1+1
-The IDS-2 is a general developmental assessment that includes tests of Intelligence, Executive Functions, Psychomotor skills, Social-Emotional skills, Scholastic skills, and Motivation and Attitude. Originally developed in German by Alexander Grob and Priska Hagmann-von Arx, the  UK adaptation was undertaken by  Anna L. Barnett, Nichola Stuart and Serena Vanzan and published in 2021.
-
-
-*/
+import Reference from "./Reference";
 
 export default function Resources() {
   return (
@@ -31,6 +22,15 @@ export default function Resources() {
           >
             Handwriting Legibility Scale
           </a>
+          <p>
+            Also see publication:{" "}
+            <Reference doi="https://doi.org/10.1016/j.ridd.2017.11.013">
+              Barnett, A.L., Prunty, M. & Rosenblum, S. (2017). Development of
+              the Handwriting Legibility Scale (HLS): a preliminary examination
+              of Reliability and Validity. Research in Developmental
+              Disabilities, 72, 240-247.
+            </Reference>
+          </p>
         </li>
       </ul>
       <h3>Assessment instruments for purchase</h3>

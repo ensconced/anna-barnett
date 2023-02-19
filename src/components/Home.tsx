@@ -44,6 +44,10 @@ export default function Home() {
           writing. My work in this area includes surveys of policy and practice
           in primary and secondary schools and examinations of handwriting in
           individuals with developmental disorders such as DCD and dyslexia.
+          Most recently I have been working with colleagues to develop an
+          assessment tool to evaluate handwriting legibility (the Handwriting
+          Legibility Scale, or HLS) and compositional quality in writing (the
+          Writing Quality Scale, or WQS).
         </p>
       </Section>
     </>
