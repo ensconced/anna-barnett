@@ -122,13 +122,15 @@ ul {
   list-style: none;
 }
 
+h2,
 h3 {
-  margin: 0.5rem 0;
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
 }
 
 h2 {
   font-size: 1.3rem;
-  margin-bottom: 1rem;
+  text-align: center;
 }
 
 .menu-icon {
