@@ -41,13 +41,6 @@ export default function SelectedPublications() {
       <ul>
         <li>
           <p>
-            Barnett, A.L. & Hill, E.L. (2019). Understanding motor behaviour in
-            Developmental Coordination Disorder. Current issues in Developmental
-            Psychology Series. Oxford: Routledge.
-          </p>
-        </li>
-        <li>
-          <p>
             Barnett, A., Henderson, S.E., Scheib, B. & Schulz, J. (2007). The
             Detailed Assessment of Speed of Handwriting (DASH). London: Harcourt
             Assessment.
@@ -58,6 +51,13 @@ export default function SelectedPublications() {
             Barnett, A., Henderson, S.E., Scheib, B. & Schulz, J. (2010). The
             Detailed Assessment of Speed of Handwriting 17+ (DASH 17+). London:
             Pearson Assessment.
+          </p>
+        </li>
+        <li>
+          <p>
+            Barnett, A.L. & Hill, E.L. (2019). Understanding motor behaviour in
+            Developmental Coordination Disorder. Current issues in Developmental
+            Psychology Series. Oxford: Routledge.
           </p>
         </li>
         <li>
