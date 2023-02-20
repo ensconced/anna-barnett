@@ -17,7 +17,7 @@ export default function Resources() {
       <h3>Freely Available assessment tools</h3>
       <ul>
         <li>
-          <a href={pdfDownloadURL} target="_blank">
+          <a href={pdfDownloadURL} download>
             Handwriting Legibility Scale
           </a>
           <p>
