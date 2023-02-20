@@ -16,19 +16,19 @@
 
 @font-face {
   font-family: "WorkSans";
-  src: url("../../fonts/WorkSans-VariableFont_wght.ttf");
+  src: url("../../assets/fonts/WorkSans-VariableFont_wght.ttf");
   font-style: normal;
 }
 
 @font-face {
   font-family: "WorkSans";
-  src: url("../../fonts/WorkSans-Italic-VariableFont_wght.ttf");
+  src: url("../../assets/fonts/WorkSans-Italic-VariableFont_wght.ttf");
   font-style: italic;
 }
 
 @font-face {
   font-family: "Forum";
-  src: url("../../fonts/Forum-Regular.ttf");
+  src: url("../../assets/fonts/Forum-Regular.ttf");
   font-style: normal;
 }
 

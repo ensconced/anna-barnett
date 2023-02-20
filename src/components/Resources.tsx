@@ -1,6 +1,7 @@
 import React from "react";
 import Section from "./Section";
 import Reference from "./Reference";
+import pdfDownloadURL from "../../assets/downloads/Handwriting Legibility Scale (HLS) RIDD 2018.pdf";
 
 export default function Resources() {
   return (
@@ -16,14 +17,11 @@ export default function Resources() {
       <h3>Freely Available assessment tools</h3>
       <ul>
         <li>
-          <a
-            href="https://www.brookes.ac.uk/phpd/research/resources/handwriting-legibility-scale/"
-            target="_blank"
-          >
+          <a href={pdfDownloadURL} target="_blank">
             Handwriting Legibility Scale
           </a>
           <p>
-            Also see publication:{" "}
+            Also see publication:
             <Reference doi="https://doi.org/10.1016/j.ridd.2017.11.013">
               Barnett, A.L., Prunty, M. & Rosenblum, S. (2017). Development of
               the Handwriting Legibility Scale (HLS): a preliminary examination
