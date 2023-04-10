@@ -25,10 +25,22 @@ export default function Resources() {
             <Reference doi="https://doi.org/10.1016/j.ridd.2017.11.013">
               Barnett, A.L., Prunty, M. & Rosenblum, S. (2017). Development of
               the Handwriting Legibility Scale (HLS): a preliminary examination
-              of Reliability and Validity. Research in Developmental
-              Disabilities, 72, 240-247.
+              of Reliability and Validity.{" "}
+              <em>Research in Developmental Disabilities</em>, 72, 240-247.
             </Reference>
           </p>
+          <p>Administration Guide in preparation.</p>
+          <p>
+            <a href="https://doi.org/10.1111/1467-8578.12464" target="_blank">
+              Writing Quality Scale
+            </a>
+          </p>
+          <Reference doi="https://doi.org/10.1111/1467-8578.12464">
+            Stuart, N. & Barnett, A.L. (2023 in press). The Writing Quality
+            Scale (WQS): A new tool to identify writing difficulties in
+            students. <em>British Journal of Special Education</em>.
+          </Reference>
+          <p>Administration Guide in preparation.</p>
         </li>
       </ul>
       <h3>Assessment instruments for purchase</h3>

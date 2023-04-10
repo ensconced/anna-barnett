@@ -11,19 +11,25 @@ export default function Projects() {
         Health Professionals.
       </p>
       <dl>
-        <dt>DASH - 2nd Edition.</dt>
+        <dt>
+          <em>DASH - 2nd Edition.</em>
+        </dt>
         <dd>
           Funded by Pearson, a project is underway to develop a revised version
           of DASH/DASH17+. This new edition will cover the age range 8-25 years.
           It is due to be published in late 2023.
         </dd>
-        <dt>Movement ABC – 3rd Edition.</dt>
+        <dt>
+          <em>Movement ABC – 3rd Edition.</em>
+        </dt>
         <dd>
           Funded by Pearson, a project is underway to develop a revised version
           of the Movement ABC Test and Checklist. This new edition will cover
           the age range 3-25 years. It is due to be published in late 2023.
         </dd>
-        <dt>Handwriting Legibility Scale (HLS).</dt>
+        <dt>
+          <em>Handwriting Legibility Scale (HLS).</em>
+        </dt>
         <dd>
           The HLS was originally designed to assess handwriting in children aged
           9- 14 years. We are currently examining its application in the
@@ -31,7 +37,9 @@ export default function Projects() {
           aged 17-25 years. The HLS has also been translated into other
           languages including Italian, Dutch and Hebrew.
         </dd>
-        <dt>Writing Quality Scale (WQS).</dt>
+        <dt>
+          <em>Writing Quality Scale (WQS).</em>
+        </dt>
         <dd>
           We have recently developed this scale to be used with the ‘free
           writing’ script from the DASH17+. It offers a quick and practical way
@@ -39,7 +47,9 @@ export default function Projects() {
           for specialist assessors in Higher Education. This project has been
           funded by Oxford Brookes University.
         </dd>
-        <dt>Assessment of typing speed.</dt>
+        <dt>
+          <em>Assessment of typing speed.</em>
+        </dt>
         <dd>
           We are currently developing a tool for the assessment of typing speed
           and typing skills for young adults aged 17-25 years. This will
