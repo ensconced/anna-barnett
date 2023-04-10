@@ -32,7 +32,7 @@ module.exports = {
         type: "asset/resource",
       },
       {
-        test: /\.pdf$/i,
+        test: /\.(pdf|jpg)$/i,
         type: "asset/resource",
         generator: {
           filename: "static/[file]",

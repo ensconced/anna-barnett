@@ -12,7 +12,7 @@ export default function SelectedPublications() {
             <Reference doi={"https://doi.org/10.1016/j.ridd.2017.11.013"}>
               Barnett, A.L., Prunty, M. & Rosenblum, S. (2017). Development of
               the Handwriting Legibility Scale (HLS): a preliminary examination
-              of Reliability and Validity.
+              of Reliability and Validity.{" "}
               <em>Research in Developmental Disabilities</em>, 72, 240-247.
             </Reference>
           </p>
@@ -21,7 +21,7 @@ export default function SelectedPublications() {
           <p>
             <Reference doi="https://doi.org/10.3389/fnhum.2021.669902">
               Mountford, H.S., Hill, A., Barnett, A.L., Newbury, D.F. (2021)
-              'Genome Wide Association Study of Motor Coordination'{" "}
+              'Genome Wide Association Study of Motor Coordination'.{" "}
               <em>Frontiers in Human Neuroscience</em>, 15 ISSN: 1662-5161
               eISSN: 1662-5161
             </Reference>
@@ -32,7 +32,7 @@ export default function SelectedPublications() {
             <Reference doi={"https://doi.org/10.1177/03080226221097314"}>
               Nightingale, R., Sumner, E., Prunty, M., Barnett, A.L. (2022)
               'Handwriting and typing: Occupational therapy practice when
-              supporting adolescents with handwriting difficulties'
+              supporting adolescents with handwriting difficulties'.{" "}
               <em>British Journal of Occupational Therapy</em>, 85 (11) 891-899.
               ISSN: 0308-0226 eISSN: 1477-6006
             </Reference>
