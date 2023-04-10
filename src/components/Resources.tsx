@@ -28,8 +28,9 @@ export default function Resources() {
               of Reliability and Validity.{" "}
               <em>Research in Developmental Disabilities</em>, 72, 240-247.
             </Reference>
+            <br />
+            Administration Guide in preparation.
           </p>
-          <p>Administration Guide in preparation.</p>
           <p>
             <a href="https://doi.org/10.1111/1467-8578.12464" target="_blank">
               Writing Quality Scale
@@ -40,7 +41,8 @@ export default function Resources() {
             Scale (WQS): A new tool to identify writing difficulties in
             students. <em>British Journal of Special Education</em>.
           </Reference>
-          <p>Administration Guide in preparation.</p>
+          <br />
+          Administration Guide in preparation.
         </li>
       </ul>
       <h3>Assessment instruments for purchase</h3>
