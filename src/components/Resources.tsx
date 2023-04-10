@@ -23,7 +23,7 @@ export default function Resources() {
           <p>
             Also see publication:{" "}
             <Reference doi="https://doi.org/10.1016/j.ridd.2017.11.013">
-              Barnett, A.L., Prunty, M. & Rosenblum, S. (2017). Development of
+              Barnett, A.L., Prunty, M. & Rosenblum, S. (2018). Development of
               the Handwriting Legibility Scale (HLS): a preliminary examination
               of Reliability and Validity.{" "}
               <em>Research in Developmental Disabilities</em>, 72, 240-247.
