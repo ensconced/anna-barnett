@@ -5,7 +5,7 @@ import profileImage from "../../assets/images/profile.jpg";
 export default function Home() {
   return (
     <>
-      <img src={profileImage} alt="profile image" height="300" />
+      {/* <img src={profileImage} alt="profile image" height="300" /> */}
       <Section title="Background">
         <p>
           My main research focus is the development of assessment tools and
