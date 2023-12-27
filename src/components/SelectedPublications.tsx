@@ -43,6 +43,26 @@ export default function SelectedPublications() {
       <ul>
         <li>
           <p>
+            Henderson, S.E., & Barnett, A.L. (2023). Movement Assessment Battery
+            for Children - 3rd Edition (Movement ABC-3). Test manual. Pearson.
+          </p>
+        </li>
+        <li>
+          <p>
+            Henderson, S.E., & Barnett, A.L. (2023). Movement Assessment Battery
+            for Children - 3rd Edition (Movement ABC-3). Checklist manual.
+            Pearson.
+          </p>
+        </li>
+        <li>
+          <p>
+            Barnett, A., Henderson, S.E., & Scheib, B. (2024). The Detailed
+            Assessment of the Speed of Handwriting - 2nd Edition (DASH-2).
+            Pearson.
+          </p>
+        </li>
+        <li>
+          <p>
             Barnett, A., Henderson, S.E., Scheib, B. & Schulz, J. (2007). The
             Detailed Assessment of Speed of Handwriting (DASH). London: Harcourt
             Assessment.

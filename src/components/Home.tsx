@@ -30,10 +30,10 @@ export default function Home() {
           coordination in children and young adults. Within this area I pursue
           two different strands of research. The first has very practical
           applications, involving the development of assessment tools. This
-          includes the DASH, DASH17+ and Movement ABC-2. I’m also involved in
-          the delivery of interventions to teach motor skills. In particular I
-          help run a ‘Learn to Ride a Bike’ course in Oxford for children with
-          motor difficulties.
+          includes the DASH-2 and Movement ABC-3 Test and Checklist. I’m also
+          involved in the delivery of interventions to teach motor skills. In
+          particular I help run a ‘Learn to Ride a Bike’ course in Oxford for
+          children with motor difficulties.
         </p>
         <p>
           The second strand of my research focuses on various aspects of

@@ -6,14 +6,6 @@ import pdfDownloadURL from "../../assets/downloads/Handwriting Legibility Scale 
 export default function Resources() {
   return (
     <Section title="Resources">
-      <h3>Websites</h3>
-      <ul>
-        <li>
-          <a href="http://www.movementmattersuk.org/" target="_blank">
-            Movement Matters
-          </a>
-        </li>
-      </ul>
       <h3>Freely Available assessment tools</h3>
       <ul>
         <li>
@@ -49,44 +41,29 @@ export default function Resources() {
       <ul>
         <li>
           <a
-            href="http://www.pearsonclinical.co.uk/Psychology/ChildCognitionNeuropsychologyandLanguage/ChildPerceptionandVisuomotorAbilities/MABC-2/MovementAssessmentBatteryforChildren-SecondEdition(MovementABC-2).aspx"
+            href="https://www.pearsonclinical.co.uk/store/ukassessments/en/Store/Professional-Assessments/Motor-Sensory/Movement-Assessment-Battery-for-Children-%7C-Third-Edition/p/P100057001.html"
             target="_blank"
           >
-            Movement ABC-2
+            Movement ABC-3
           </a>
           <p>
-            The Movement Assessment Battery for Children - 2nd Edition (Movement
-            ABC-2; Henderson, Sugden & Barnett, 2007) includes a standardised
-            test of general motor competence (for 3-16 years) and a checklist
-            for (5-12 years). Production of a 3rd edition is underway and due to
-            be published in late 2023.
+            The Movement Assessment Battery for Children - 3rd Edition (Movement
+            ABC-3; Henderson & Barnett, 2023) includes a standardised test of
+            general motor competence (for 3-25 years) and a checklist for (3-25
+            years).
           </p>
         </li>
         <li>
           <a
-            href="http://www.pearsonclinical.co.uk/AlliedHealth/PaediatricAssessments/PerceptualFineMotorDevelopment/DetailedAssessmentofSpeedofHandwriting(DASH)/DetailedAssessmentofSpeedofHandwriting(DASH).aspx"
+            href="https://www.pearsonclinical.co.uk/store/ukassessments/en/Store/Professional-Assessments/Academic-Learning/Detailed-Assessment-of-Speed-of-Handwriting%2C-Second-Edition/p/P100057002.html"
             target="_blank"
           >
-            DASH
+            DASH-2
           </a>
           <p>
-            The Detailed Assessment of Speed of Handwriting (DASH; Barnett,
-            Henderson, Scheib & Schulz, 2007) includes a range of writing tasks
-            to assess handwriting speed for 9-16 year-olds.
-          </p>
-        </li>
-        <li>
-          <a
-            href="https://www.pearsonclinical.co.uk/store/ukassessments/en/Store/Professional-Assessments/Motor-Sensory/Detailed-Assessment-of-Speed-of-Handwriting/p/P100009280.html"
-            target="_blank"
-          >
-            DASH17+
-          </a>
-          <p>
-            The Detailed Assessment of Speed of Handwriting 17+ (DASH17+;
-            Barnett, Henderson, Scheib & Schulz, 2010) is an extension of the
-            DASH for those aged 17-25 years. Production of a 2nd edition of
-            DASH/DASH17+ is underway and due to be published in late 2023.
+            The Detailed Assessment of the Speed of Handwriting (DASH-2;
+            Barnett, Henderson, & Scheib, 2024) includes a range of writing
+            tasks to assess handwriting speed for 8-25 year-olds.
           </p>
         </li>
         <li>

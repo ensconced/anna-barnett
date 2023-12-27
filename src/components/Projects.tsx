@@ -3,27 +3,7 @@ import Section from "./Section";
 
 const assessmentTools = [
   {
-    title: "DASH - 2nd Edition.",
-    description:
-      "Funded by Pearson, a project is underway to develop a revised version of DASH/DASH17+. This new edition will cover the age range 8-25 years. It is due to be published in late 2023.",
-  },
-  {
-    title: "Movement ABC – 3rd Edition.",
-    description:
-      "Funded by Pearson, a project is underway to develop a revised version of the Movement ABC Test and Checklist. This new edition will cover the age range 3-25 years. It is due to be published in late 2023.",
-  },
-  {
-    title: "Handwriting Legibility Scale (HLS).",
-    description:
-      "The HLS was originally designed to assess handwriting in children aged 9- 14 years. We are currently examining its application in the handwriting of older children (aged 14-16 years) and in young adults aged 17-25 years. The HLS has also been translated into other languages including Italian, Dutch and Hebrew.",
-  },
-  {
-    title: "Writing Quality Scale (WQS).",
-    description:
-      "We have recently developed this scale to be used with the ‘free writing’ script from the DASH17+. It offers a quick and practical way to assess the compositional quality of writing, particularly useful for specialist assessors in Higher Education. This project has been funded by Oxford Brookes University.",
-  },
-  {
-    title: "Assessment of typing speed.",
+    title: "Assessment of typing skill.",
     description:
       "We are currently developing a tool for the assessment of typing speed and typing skills for young adults aged 17-25 years. This will complement the DASH to allow for a direct comparison to be made between the two modes of writing: handwriting and typing.",
   },
