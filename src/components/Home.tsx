@@ -6,7 +6,15 @@ import background from "../../site/content/background.json";
 export default function Home() {
   return (
     <Section title="Background">
-      <Markdown>{background.content}</Markdown>
+      <Markdown
+        components={{
+          a(props) {
+            return <a {...props} target="_blank" />;
+          },
+        }}
+      >
+        {background.content}
+      </Markdown>
     </Section>
   );
 }

@@ -64,3 +64,19 @@ collections:
             name: "doi"
             widget: "string"
             required: false
+  - label: "Resources"
+    extension: json
+    name: "resources"
+    folder: "site/content/resources"
+    create: true
+    fields:
+      - label: "Title"
+        name: "title"
+        widget: "string"
+      - label: Sections
+        name: sections
+        widget: list
+        fields:
+          - label: "Content"
+            name: "content"
+            widget: "markdown"
