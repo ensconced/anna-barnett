@@ -1,6 +1,9 @@
 import React from "react";
 import Section from "./Section";
-import profileImage from "../../assets/images/profile.jpg";
+// import profileImage from "../../assets/images/profile.jpg";
+
+import background from "../../site/content/background.json";
+console.log(background);
 
 export default function Home() {
   return (

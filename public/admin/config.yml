@@ -10,6 +10,6 @@ collections:
     files:
       - label: "Background"
         name: "background"
-        file: "site/content/background.yml"
+        file: "site/content/background.json"
         fields:
           - { label: Content, name: content, widget: markdown }
