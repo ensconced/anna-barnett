@@ -2,6 +2,19 @@ import React from "react";
 import Section from "./Section";
 import Reference from "./Reference";
 
+// const selectedPublications = import.meta.glob(
+//   "../../site/content/selected-publications/*.json",
+//   { eager: true }
+// ) as Record<
+//   string,
+//   {
+//     title: string;
+//     description?: string;
+//     bullet?: boolean;
+//     sections: Array<{ title?: string; content: string }>;
+//   }
+// >;
+
 export default function SelectedPublications() {
   return (
     <Section title="Selected Publications">
