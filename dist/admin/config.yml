@@ -6,6 +6,7 @@ media_folder: "assets/images/uploads"
 
 collections:
   - label: "Sections"
+    extension: json
     name: "sections"
     files:
       - label: "Background"
