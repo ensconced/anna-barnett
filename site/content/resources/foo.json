@@ -1,1 +1,11 @@
-{ "title": "foo", "sections": [] }
+{
+  "title": "Freely Available assessment tools",
+  "sections": [
+    {
+      "content": "[Handwriting Legibility Scale](https://annabarnett.co.uk/assets/Handwriting%20Legibility%20Scale%20(HLS)%20RIDD%202018-o3IwE5sA.pdf)\n\nAlso see publication: Barnett, A.L., Prunty, M. & Rosenblum, S. (2018). Development of the Handwriting Legibility Scale (HLS): a preliminary examination of Reliability and Validity. *Research in Developmental Disabilities*, 72, 240-247. [\\[doi]](https://doi.org/10.1016/j.ridd.2017.11.013)\n\nAdministration Guide in preparation."
+    },
+    {
+      "content": "[Writing Quality Scale](https://doi.org/10.1111/1467-8578.12464)\n\nStuart, N. & Barnett, A.L. (2023 in press). The Writing Quality Scale (WQS): A new tool to identify writing difficulties in students. *British Journal of Special Education*. [\\[doi]](https://doi.org/10.1111/1467-8578.12464)\n\nAdministration Guide in preparation."
+    }
+  ]
+}
