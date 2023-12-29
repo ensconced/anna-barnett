@@ -13,4 +13,25 @@ collections:
         name: "background"
         file: "site/content/background.json"
         fields:
-          - { label: Content, name: content, widget: markdown }
+          - label: Content
+            name: content
+            widget: markdown
+  - label: "Current Projects"
+    extension: json
+    name: "current-projects"
+    folder: "site/content/current-projects"
+    create: true
+    fields:
+      - label: "Title"
+        name: "title"
+        widget: "string"
+      - label: Sections
+        name: sections
+        widget: list
+        fields:
+          - label: "Title"
+            name: "title"
+            widget: "string"
+          - label: "Content"
+            name: "content"
+            widget: "markdown"
