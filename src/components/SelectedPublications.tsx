@@ -21,19 +21,26 @@ export default function SelectedPublications() {
           <React.Fragment key={idx}>
             <h3>{title}</h3>
             <ul>
-              {sections.map(({ content, doi }) => {
+              {sections.map(({ content, doi }, idx) => {
                 return (
-                  <li>
-                    <p>
-                      <Markdown>{content}</Markdown>{" "}
-                      {doi && (
-                        <span>
-                          <a href={doi} target="_blank">
-                            [doi]
-                          </a>
-                        </span>
-                      )}
-                    </p>
+                  <li key={idx} style={{ paddingBottom: "1rem" }}>
+                    <Markdown
+                      components={{
+                        p(props) {
+                          return <p style={{ display: "inline" }} {...props} />;
+                        },
+                      }}
+                    >
+                      {content}
+                    </Markdown>
+                    {doi && (
+                      <span>
+                        {" "}
+                        <a href={doi} target="_blank">
+                          [doi]
+                        </a>
+                      </span>
+                    )}
                   </li>
                 );
               })}

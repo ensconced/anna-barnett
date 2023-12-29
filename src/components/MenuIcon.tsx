@@ -22,6 +22,9 @@ export default function MenuIcon({ open, onChange }: Props) {
       });
       animation.setSpeed(4);
       setAnimation(animation);
+      return () => {
+        animation.destroy();
+      };
     }
   }, []);
 
