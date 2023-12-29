@@ -29,6 +29,10 @@ collections:
         name: "description"
         widget: "markdown"
         required: false
+      - label: "Use bullet points"
+        name: "bullet"
+        widget: "boolean"
+        default: false
       - label: Sections
         name: sections
         widget: list

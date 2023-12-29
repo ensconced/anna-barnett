@@ -10,6 +10,7 @@ const currentProjects = import.meta.glob(
   {
     title: string;
     description?: string;
+    bullet?: boolean;
     sections: Array<{ title?: string; content: string }>;
   }
 >;
@@ -25,28 +26,29 @@ const assessmentTools = [
 export default function Projects() {
   return (
     <Section title="Current Projects">
-      {Object.values(currentProjects).map(
-        ({ title, sections, description }) => {
-          return (
-            <>
-              <h3>{title}</h3>
-              {description && <Markdown>{description}</Markdown>}
-              {false ? (
-                <ul>
-                  {assessmentTools.map(({ title, description }) => (
-                    <li style={{ listStyle: "disc" }} key={title}>
-                      <em>{title}</em>
-                      <p>{description}</p>
-                    </li>
-                  ))}
-                </ul>
-              ) : (
-                sections.map(({ content }) => <Markdown>{content}</Markdown>)
-              )}
-            </>
-          );
-        }
-      )}
+      {Object.values(currentProjects).map((project) => {
+        const { title, sections, description, bullet } = project;
+        return (
+          <React.Fragment key={title}>
+            <h3>{title}</h3>
+            {description && <Markdown>{description}</Markdown>}
+            {bullet ? (
+              <ul>
+                {assessmentTools.map(({ title, description }) => (
+                  <li style={{ listStyle: "disc" }} key={title}>
+                    <em>{title}</em>
+                    <p>{description}</p>
+                  </li>
+                ))}
+              </ul>
+            ) : (
+              sections.map(({ content }, idx) => (
+                <Markdown key={idx}>{content}</Markdown>
+              ))
+            )}
+          </React.Fragment>
+        );
+      })}
     </Section>
   );
 }
