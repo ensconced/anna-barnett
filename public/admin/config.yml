@@ -44,3 +44,19 @@ collections:
           - label: "Content"
             name: "content"
             widget: "markdown"
+  - label: "Selected Publications"
+    extension: json
+    name: "selected-publications"
+    folder: "site/content/selected-publications"
+    create: true
+    fields:
+      - label: "Title"
+        name: "title"
+        widget: "string"
+      - label: Sections
+        name: sections
+        widget: list
+        fields:
+          - label: "Content"
+            name: "content"
+            widget: "markdown"
