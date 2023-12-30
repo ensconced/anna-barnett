@@ -12,7 +12,8 @@ const resources = import.meta.glob("../../site/content/resources/*.json", {
       content: string;
       "link-text"?: string;
       "link-url"?: string;
-      "link-downloadable"?: string;
+      "file-download"?: string;
+      "file-download-text"?: string;
     }>;
   }
 >;
@@ -30,13 +31,19 @@ export default function Resources() {
                   content,
                   "link-text": linkText,
                   "link-url": linkUrl,
-                  "link-downloadable": linkDownloadable,
+                  "file-download": fileDownload,
+                  "file-download-text": fileDownloadText,
                 }) => {
                   return (
                     <li key={idx}>
                       {linkText && linkUrl && (
-                        <a href={linkUrl} download={!!linkDownloadable}>
+                        <a href={linkUrl} target="_blank">
                           {linkText}
+                        </a>
+                      )}
+                      {fileDownload && fileDownloadText && (
+                        <a href={fileDownload} download>
+                          {fileDownloadText}
                         </a>
                       )}
                       <Markdown
