@@ -85,10 +85,14 @@ collections:
             name: "link-url"
             widget: "string"
             required: false
-          - label: "Link downloadable"
-            name: "link-downloadable"
-            widget: "boolean"
-            default: false
+          - label: "File Download"
+            name: "file-download"
+            widget: "file"
+            required: false
+          - label: "File Download Text"
+            name: "file-download-text"
+            widget: "string"
+            required: false
           - label: "Content"
             name: "content"
             widget: "markdown"
