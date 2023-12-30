@@ -77,12 +77,16 @@ collections:
         name: sections
         widget: list
         fields:
-          - label: "URL"
-            name: "url"
+          - label: "Link text"
+            name: "link-text"
             widget: "string"
             required: false
-          - label: "Downloadable"
-            name: "downloadable"
+          - label: "Link URL"
+            name: "link-url"
+            widget: "string"
+            required: false
+          - label: "Link downloadable"
+            name: "link-downloadable"
             widget: "boolean"
             default: false
           - label: "Content"
