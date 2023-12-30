@@ -3,6 +3,7 @@ backend:
   branch: master
 
 media_folder: "public/media"
+public_folder: "/media"
 
 collections:
   - label: "Sections"
