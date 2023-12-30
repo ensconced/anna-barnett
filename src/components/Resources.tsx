@@ -3,6 +3,17 @@ import Section from "./Section";
 import Reference from "./Reference";
 import pdfDownloadURL from "../../assets/downloads/Handwriting Legibility Scale (HLS) RIDD 2018.pdf";
 
+const selectedPublications = import.meta.glob(
+  "../../site/content/selected-publications/*.json",
+  { eager: true }
+) as Record<
+  string,
+  {
+    title: string;
+    sections: Array<{ content: string; doi?: string }>;
+  }
+>;
+
 export default function Resources() {
   return (
     <Section title="Resources">
