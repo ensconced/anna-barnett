@@ -37,6 +37,7 @@ collections:
       - label: Sections
         name: sections
         widget: list
+        summary: "{{fields.title}}"
         fields:
           - label: "Title"
             name: "title"
@@ -77,8 +78,11 @@ collections:
       - label: Sections
         name: sections
         widget: list
-        summary: "{{fields.link-text}} {{fields.file-download-text}}"
         fields:
+          - label: "Title"
+            name: "title"
+            widget: "string"
+            required: true
           - label: "Link text"
             name: "link-text"
             widget: "string"
