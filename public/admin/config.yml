@@ -82,6 +82,7 @@ collections:
           - label: "Title"
             name: "title"
             widget: "string"
+            hint: "This will not be displayed on the page"
             required: true
           - label: "Link text"
             name: "link-text"
