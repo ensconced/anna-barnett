@@ -9,11 +9,10 @@ const resources = import.meta.glob("../../site/content/resources/*.json", {
   {
     title: string;
     sections: Array<{
+      title: string;
       content: string;
-      "link-text"?: string;
-      "link-url"?: string;
-      "file-download"?: string;
-      "file-download-text"?: string;
+      link?: { text?: string; url: string };
+      "download-link"?: { text?: string; file: string };
     }>;
   }
 >;
@@ -27,23 +26,17 @@ export default function Resources() {
             <h3>{title}</h3>
             <ul>
               {sections.map(
-                ({
-                  content,
-                  "link-text": linkText,
-                  "link-url": linkUrl,
-                  "file-download": fileDownload,
-                  "file-download-text": fileDownloadText,
-                }) => {
+                ({ content, link, "download-link": downloadLink }) => {
                   return (
                     <li key={idx}>
-                      {linkText && linkUrl && (
-                        <a href={linkUrl} target="_blank">
-                          {linkText}
+                      {link && (
+                        <a href={link.url} target="_blank">
+                          {link.text ?? link.url}
                         </a>
                       )}
-                      {fileDownload && fileDownloadText && (
-                        <a href={fileDownload} download>
-                          {fileDownloadText}
+                      {downloadLink && (
+                        <a href={downloadLink.file} download>
+                          {downloadLink.text ?? downloadLink.file}
                         </a>
                       )}
                       <Markdown

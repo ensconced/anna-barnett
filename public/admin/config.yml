@@ -84,22 +84,48 @@ collections:
             widget: "string"
             hint: "This will not be displayed on the page"
             required: true
-          - label: "Link text"
-            name: "link-text"
-            widget: "string"
+          - label: "Link"
+            name: "link"
             required: false
-          - label: "Link URL"
-            name: "link-url"
-            widget: "string"
+            widget: "object"
+            fields:
+              - label: "Text"
+                name: "text"
+                widget: "string"
+                required: false
+              - label: "URL"
+                name: "url"
+                widget: "string"
+                required: true
+          - label: "Download Link"
+            name: "download-link"
             required: false
-          - label: "File Download Text"
-            name: "file-download-text"
-            widget: "string"
-            required: false
-          - label: "File Download"
-            name: "file-download"
-            widget: "file"
-            required: false
+            widget: "object"
+            fields:
+              - label: "Text"
+                name: "text"
+                widget: "string"
+                required: false
+              - label: "File"
+                name: "file"
+                widget: "file"
+                required: true
+          # - label: "Link text"
+          #   name: "link-text"
+          #   widget: "string"
+          #   required: false
+          # - label: "Link URL"
+          #   name: "link-url"
+          #   widget: "string"
+          #   required: false
+          # - label: "File Download Text"
+          #   name: "file-download-text"
+          #   widget: "string"
+          #   required: false
+          # - label: "File Download"
+          #   name: "file-download"
+          #   widget: "file"
+          #   required: false
           - label: "Content"
             name: "content"
             widget: "markdown"
