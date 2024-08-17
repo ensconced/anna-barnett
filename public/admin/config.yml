@@ -86,13 +86,13 @@ collections:
             name: "link-url"
             widget: "string"
             required: false
-          - label: "File Download"
-            name: "file-download"
-            widget: "file"
-            required: false
           - label: "File Download Text"
             name: "file-download-text"
             widget: "string"
+            required: false
+          - label: "File Download"
+            name: "file-download"
+            widget: "file"
             required: false
           - label: "Content"
             name: "content"
