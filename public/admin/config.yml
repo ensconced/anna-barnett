@@ -10,6 +10,7 @@ collections:
     name: "sections"
     folder: "site/sections"
     extension: "md"
+    create: true
     fields:
       - label: "Body"
         name: "body"
