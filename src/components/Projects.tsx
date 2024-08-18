@@ -2,12 +2,12 @@ import React from "react";
 import Section from "./Section";
 import Markdown from "react-markdown";
 
-import currentProjects from "../../site/content/current-projects.json";
+import currentProjectsMarkdown from "../../site/content/current-projects.md?raw";
 
 export default function Projects() {
   return (
     <Section title="Current Projects">
-      <Markdown>{currentProjects.content}</Markdown>
+      <Markdown>{currentProjectsMarkdown}</Markdown>
     </Section>
   );
 }
