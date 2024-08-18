@@ -17,38 +17,6 @@ collections:
           - label: Content
             name: content
             widget: markdown
-  - label: "Current Projects"
-    extension: json
-    name: "current-projects"
-    folder: "site/content/current-projects"
-    create: true
-    fields:
-      - label: "Title"
-        name: "title"
-        widget: "string"
-      - label: "Description"
-        name: "description"
-        widget: "markdown"
-        required: false
-      - label: "Use bullet points"
-        name: "bullet"
-        widget: "boolean"
-        default: false
-      - label: Sections
-        name: sections
-        widget: list
-        summary: "{{fields.title}}"
-        fields:
-          - label: "Title"
-            name: "title"
-            widget: "string"
-            required: false
-          - label: "Content"
-            name: "content"
-            widget: "markdown"
-  - label: "Pages"
-    name: "pages"
-    files:
       - label: "Selected Publications"
         extension: json
         name: "selected-publications"
@@ -57,6 +25,14 @@ collections:
           - label: "Content"
             name: content
             widget: markdown
+      - label: "Current Projects"
+        extension: json
+        name: "current-projects"
+        file: "site/content/current-projects.json"
+        fields:
+          - label: "Content"
+            name: "content"
+            widget: "markdown"
   - label: "Resources"
     extension: json
     name: "resources"
