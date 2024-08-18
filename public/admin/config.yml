@@ -50,25 +50,13 @@ collections:
     name: "pages"
     files:
       - label: "Selected Publications"
-        extension: md
+        extension: json
         name: "selected-publications"
-        file: "site/content/selected-publications.md"
-    # create: true
-    # fields:
-    #   - label: "Title"
-    #     name: "title"
-    #     widget: "string"
-    #   - label: Content
-    #     name: content
-    #     widget: markdown
-    # fields:
-    #   - label: "Content"
-    #     name: "content"
-    #     widget: "markdown"
-    #   - label: "DOI"
-    #     name: "doi"
-    #     widget: "string"
-    #     required: false
+        file: "site/content/selected-publications.json"
+        fields:
+          - label: "Content"
+            name: content
+            widget: markdown
   - label: "Resources"
     extension: json
     name: "resources"
