@@ -1,22 +1,21 @@
 import React from "react";
 import Section from "./Section";
 import Markdown from "react-markdown";
-
-const selectedPublications = import.meta.glob(
-  "../../site/content/selected-publications/*.json",
-  { eager: true }
-) as Record<
-  string,
-  {
-    title: string;
-    sections: Array<{ content: string; doi?: string }>;
-  }
->;
+import selectedPublications from "../../site/content/selected-publications.md?raw";
 
 export default function SelectedPublications() {
   return (
     <Section title="Selected Publications">
-      {Object.values(selectedPublications).map(({ title, sections }, idx) => {
+      <Markdown
+        components={{
+          a(props) {
+            return <a {...props} target="_blank" />;
+          },
+        }}
+      >
+        {selectedPublications}
+      </Markdown>
+      {/* {Object.values(selectedPublications).map(({ title, content }, idx) => {
         return (
           <React.Fragment key={idx}>
             <h3>{title}</h3>
@@ -47,7 +46,7 @@ export default function SelectedPublications() {
             </ul>
           </React.Fragment>
         );
-      })}
+      })} */}
     </Section>
   );
 }

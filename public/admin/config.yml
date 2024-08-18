@@ -47,25 +47,25 @@ collections:
             name: "content"
             widget: "markdown"
   - label: "Selected Publications"
-    extension: json
+    extension: md
     name: "selected-publications"
     folder: "site/content/selected-publications"
-    create: true
-    fields:
-      - label: "Title"
-        name: "title"
-        widget: "string"
-      - label: Sections
-        name: sections
-        widget: list
-        fields:
-          - label: "Content"
-            name: "content"
-            widget: "markdown"
-          - label: "DOI"
-            name: "doi"
-            widget: "string"
-            required: false
+    # create: true
+    # fields:
+    #   - label: "Title"
+    #     name: "title"
+    #     widget: "string"
+    #   - label: Content
+    #     name: content
+    #     widget: markdown
+    # fields:
+    #   - label: "Content"
+    #     name: "content"
+    #     widget: "markdown"
+    #   - label: "DOI"
+    #     name: "doi"
+    #     widget: "string"
+    #     required: false
   - label: "Resources"
     extension: json
     name: "resources"
@@ -110,22 +110,6 @@ collections:
                 name: "file"
                 widget: "file"
                 required: false
-          # - label: "Link text"
-          #   name: "link-text"
-          #   widget: "string"
-          #   required: false
-          # - label: "Link URL"
-          #   name: "link-url"
-          #   widget: "string"
-          #   required: false
-          # - label: "File Download Text"
-          #   name: "file-download-text"
-          #   widget: "string"
-          #   required: false
-          # - label: "File Download"
-          #   name: "file-download"
-          #   widget: "file"
-          #   required: false
           - label: "Content"
             name: "content"
             widget: "markdown"
