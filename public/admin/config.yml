@@ -12,9 +12,9 @@ collections:
     extension: "md"
     create: true
     fields:
-      - label: "Body"
-        name: "body"
-        widget: "markdown"
       - label: "File"
         name: "file"
         widget: "string"
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
