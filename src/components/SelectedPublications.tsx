@@ -2,7 +2,7 @@ import React from "react";
 import Section from "./Section";
 import Markdown from "react-markdown";
 
-import selectedPublications from "../../site/content/selected-publications.json";
+import selectedPublicationsMarkdown from "../../site/content/selected-publications?raw";
 
 export default function SelectedPublications() {
   return (
@@ -14,7 +14,7 @@ export default function SelectedPublications() {
           },
         }}
       >
-        {selectedPublications.content}
+        {selectedPublicationsMarkdown}
       </Markdown>
     </Section>
   );

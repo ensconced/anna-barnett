@@ -18,12 +18,12 @@ collections:
             name: content
             widget: markdown
       - label: "Selected Publications"
-        extension: json
+        extension: md
         name: "selected-publications"
-        file: "site/content/selected-publications.json"
+        file: "site/content/selected-publications.md"
         fields:
-          - label: "Content"
-            name: content
+          - label: "Body"
+            name: body
             widget: markdown
       - label: "Current Projects"
         extension: md
