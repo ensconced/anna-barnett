@@ -10,6 +10,7 @@ collections:
     name: "sections"
     folder: "site/sections"
     extension: "md"
+    slug: "{{title}}"
     create: true
     fields:
       - label: "File"
