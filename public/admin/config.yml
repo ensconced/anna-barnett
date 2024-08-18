@@ -46,10 +46,13 @@ collections:
           - label: "Content"
             name: "content"
             widget: "markdown"
-  - label: "Selected Publications"
-    extension: md
-    name: "selected-publications"
-    folder: "site/content/selected-publications"
+  - label: "Pages"
+    name: "pages"
+    files:
+      - label: "Selected Publications"
+        extension: md
+        name: "selected-publications"
+        file: "site/content/selected-publications.md"
     # create: true
     # fields:
     #   - label: "Title"
