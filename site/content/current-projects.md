@@ -2,9 +2,7 @@
 
 In collaboration with colleagues, I have various projects underway to develop a range of assessment tools to be used by Education and Allied Health Professionals.
 
-* Assessment of typing skill.
-
-We are currently developing a tool for the assessment of typing speed and typing skills for young adults aged 17-25 years.
+**Assessment of typing skill.** We are currently developing a tool for the assessment of typing speed and typing skills for young adults aged 17-25 years.
 
 ### Handwriting and typing
 
