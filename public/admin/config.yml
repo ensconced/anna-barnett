@@ -6,38 +6,14 @@ media_folder: "public/media"
 public_folder: "/media"
 
 collections:
-  - label: "Pages"
+  - label: "Sections"
     extension: json
-    name: "pages"
-    files:
-      - label: "Background"
-        name: "background"
-        file: "site/content/background.md"
-        fields:
-          - label: Body
-            name: body
-            widget: markdown
-      - label: "Selected Publications"
-        extension: md
-        name: "selected-publications"
-        file: "site/content/selected-publications.md"
-        fields:
-          - label: "Body"
-            name: body
-            widget: markdown
-      - label: "Current Projects"
-        extension: md
-        name: "current-projects"
-        file: "site/content/current-projects.md"
-        fields:
-          - label: "Body"
-            name: "body"
-            widget: "markdown"
-      - label: "Resources"
-        extension: md
-        name: "resources"
-        folder: "site/content/resources.md"
-        fields:
-          - label: "Body"
-            name: "body"
-            widget: "markdown"
+    name: "sections"
+    folder: "site/sections"
+    fields:
+      - label: "Title"
+        name: "title"
+        widget: "string"
+      - label: "Body"
+        name: "body"
+        widget: "markdown"

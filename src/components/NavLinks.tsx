@@ -1,12 +1,17 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import sectionsMarkdown from "../sections";
 
 export default function NavLinks() {
   return (
     <div className="link-container">
-      <NavLink to="/current-projects">Current Projects</NavLink>
-      <NavLink to="/resources">Resources</NavLink>
-      <NavLink to="/selected-publications">Selected Publications</NavLink>
+      {sectionsMarkdown.map(({ title, link }) => {
+        return (
+          <NavLink key={title} to={link}>
+            {title}
+          </NavLink>
+        );
+      })}
     </div>
   );
 }

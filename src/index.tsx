@@ -5,9 +5,9 @@ import { createRoot } from "react-dom/client";
 import App from "./components/App";
 import Home from "./components/Home";
 import ErrorPage from "./components/Error";
-import Projects from "./components/Projects";
-import Resources from "./components/Resources";
-import SelectedPublications from "./components/SelectedPublications";
+import Section from "./components/Section";
+import Markdown from "react-markdown";
+import sectionsMarkdown from "./sections";
 
 function getElementById(id: string): HTMLElement {
   const element = document.getElementById(id);
@@ -16,6 +16,8 @@ function getElementById(id: string): HTMLElement {
   }
   return element;
 }
+
+console.log(sectionsMarkdown);
 
 const router = createBrowserRouter([
   {
@@ -27,18 +29,32 @@ const router = createBrowserRouter([
         index: true,
         element: <Home />,
       },
-      {
-        path: "/current-projects",
-        element: <Projects />,
-      },
-      {
-        path: "/resources",
-        element: <Resources />,
-      },
-      {
-        path: "/selected-publications",
-        element: <SelectedPublications />,
-      },
+      ...sectionsMarkdown.map(({ title, markdown }) => {
+        return {
+          path: `/${title}`,
+          element: (
+            <Section title={title}>
+              <Markdown
+                components={{
+                  a(props) {
+                    return (
+                      <a
+                        {...props}
+                        target="_blank"
+                        download={
+                          props.href?.startsWith("/media") ? true : false
+                        }
+                      />
+                    );
+                  },
+                }}
+              >
+                {markdown}
+              </Markdown>
+            </Section>
+          ),
+        };
+      }),
     ],
   },
 ]);
