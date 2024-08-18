@@ -29,7 +29,7 @@ const router = createBrowserRouter([
         index: true,
         element: <Home />,
       },
-      ...sectionsMarkdown.map(({ title, markdown }) => {
+      ...sectionsMarkdown.sections.map(({ title, markdown }) => {
         return {
           path: `/${title}`,
           element: (

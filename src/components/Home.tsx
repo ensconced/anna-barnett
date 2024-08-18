@@ -1,11 +1,11 @@
 import React from "react";
 import Section from "./Section";
 import Markdown from "react-markdown";
-import backgroundMarkdown from "../../site/sections/Background.md?raw";
+import sectionsMarkdown from "../sections";
 
 export default function Home() {
   return (
-    <Section title="Background">
+    <Section title={sectionsMarkdown.homepage.title}>
       <Markdown
         components={{
           a(props) {
@@ -13,7 +13,7 @@ export default function Home() {
           },
         }}
       >
-        {backgroundMarkdown}
+        {sectionsMarkdown.homepage.markdown}
       </Markdown>
     </Section>
   );
