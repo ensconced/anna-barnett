@@ -9,6 +9,7 @@ collections:
   - label: "Sections"
     name: "sections"
     folder: "site/sections"
+    extension: "md"
     fields:
       - label: "Body"
         name: "body"
