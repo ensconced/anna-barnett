@@ -7,13 +7,10 @@ public_folder: "/media"
 
 collections:
   - label: "Sections"
-    extension: json
+    extension: md
     name: "sections"
     folder: "site/sections"
     fields:
-      - label: "Title"
-        name: "title"
-        widget: "string"
       - label: "Body"
         name: "body"
         widget: "markdown"
