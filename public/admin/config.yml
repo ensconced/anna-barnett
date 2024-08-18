@@ -13,8 +13,8 @@ collections:
     slug: "{{title}}"
     create: true
     fields:
-      - label: "File"
-        name: "file"
+      - label: "Title"
+        name: "title"
         widget: "string"
       - label: "Body"
         name: "body"

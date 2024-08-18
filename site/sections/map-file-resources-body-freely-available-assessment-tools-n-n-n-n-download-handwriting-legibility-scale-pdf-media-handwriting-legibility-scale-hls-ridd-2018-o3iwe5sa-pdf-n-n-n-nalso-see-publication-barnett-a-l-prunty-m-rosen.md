@@ -1,6 +1,7 @@
 ---
-file: Resources
+title: Resources
 ---
+
 ### Freely Available assessment tools
 
 [Download Handwriting Legibility Scale pdf](/media/handwriting-legibility-scale-hls-ridd-2018-o3iwe5sa.pdf)

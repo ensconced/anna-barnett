@@ -1,6 +1,7 @@
 ---
-file: Selected Publications
+title: Selected Publications
 ---
+
 ### Journal Articles
 
 Barnett AL & Stuart N (2024). Understanding typing skill in students with developmental disorders. Current _Developmental Disorders Reports_, 11, 63-74. [DOI](https://doi.org/10.1007/s40474-024-00298-8)

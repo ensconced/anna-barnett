@@ -7,7 +7,7 @@ const markdownFiles: string[] = Object.values(
 
 const sectionsMarkdown = markdownFiles.map((markdown) => {
   const [fullMatch, frontMatter] = markdown.match(/^---\n([\s\S]+?)\n---\n/)!;
-  const title = frontMatter!.match(/file: (.+)/)![1]!;
+  const title = frontMatter!.match(/title: (.+)/)![1]!;
   return {
     title,
     link: `/${encodeURIComponent(title)}`,
