@@ -29,6 +29,10 @@ collections:
         extension: md
         name: "current-projects"
         file: "site/content/current-projects.md"
+        fields:
+          - label: "Body"
+            name: "body"
+            widget: "markdown"
   - label: "Resources"
     extension: json
     name: "resources"
