@@ -2,7 +2,7 @@ import React from "react";
 import Section from "./Section";
 import Markdown from "react-markdown";
 
-import selectedPublicationsMarkdown from "../../site/content/selected-publications?raw";
+import selectedPublicationsMarkdown from "../../site/content/selected-publications.md?raw";
 
 export default function SelectedPublications() {
   return (

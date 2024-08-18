@@ -6,16 +6,16 @@ media_folder: "public/media"
 public_folder: "/media"
 
 collections:
-  - label: "Sections"
+  - label: "Pages"
     extension: json
-    name: "sections"
+    name: "pages"
     files:
       - label: "Background"
         name: "background"
-        file: "site/content/background.json"
+        file: "site/content/background.md"
         fields:
-          - label: Content
-            name: content
+          - label: Body
+            name: body
             widget: markdown
       - label: "Selected Publications"
         extension: md
@@ -33,50 +33,11 @@ collections:
           - label: "Body"
             name: "body"
             widget: "markdown"
-  - label: "Resources"
-    extension: json
-    name: "resources"
-    folder: "site/content/resources"
-    create: true
-    fields:
-      - label: "Title"
-        name: "title"
-        widget: "string"
-      - label: Sections
-        name: sections
-        widget: list
+      - label: "Resources"
+        extension: md
+        name: "resources"
+        folder: "site/content/resources.md"
         fields:
-          - label: "Title"
-            name: "title"
-            widget: "string"
-            hint: "Title will not be displayed on the page"
-            required: true
-          - label: "Link"
-            name: "link"
-            required: false
-            widget: "object"
-            fields:
-              - label: "Text"
-                name: "text"
-                widget: "string"
-                required: false
-              - label: "URL"
-                name: "url"
-                widget: "string"
-                required: true
-          - label: "Download Link"
-            name: "download-link"
-            required: false
-            widget: "object"
-            fields:
-              - label: "Text"
-                name: "text"
-                widget: "string"
-                required: false
-              - label: "File"
-                name: "file"
-                widget: "file"
-                required: false
-          - label: "Content"
-            name: "content"
+          - label: "Body"
+            name: "body"
             widget: "markdown"

@@ -1,7 +1,7 @@
 import React from "react";
 import Section from "./Section";
 import Markdown from "react-markdown";
-import background from "../../site/content/background.json";
+import backgroundMarkdown from "../../site/content/background.md?raw";
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
           },
         }}
       >
-        {background.content}
+        {backgroundMarkdown}
       </Markdown>
     </Section>
   );
