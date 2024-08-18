@@ -10,6 +10,7 @@ collections:
     extension: md
     name: "sections"
     folder: "site/sections"
+    widget: list
     fields:
       - label: "Body"
         name: "body"
