@@ -1,7 +1,7 @@
 import React from "react";
 import Section from "./Section";
 import Markdown from "react-markdown";
-import backgroundMarkdown from "../../site/sections/background.md?raw";
+import backgroundMarkdown from "../../site/sections/Background.md?raw";
 
 export default function Home() {
   return (
